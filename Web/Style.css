@@ -1,0 +1,291 @@
+
+/* ESTILOS GENERALES */
+
+/* Cambia la fuente y el color general del sitio */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4a4036;
+    background-color: #f8f4ed;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.custom-navbar {
+    background-color: #5c5146;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Nombre del sitio */
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+/* Enlaces del menú */
+.nav-link {
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+/* Efecto cuando pasamos el mouse */
+.nav-link:hover {
+    color: #d8c3a5 !important;
+}
+
+/*ENCABEZADO PRINCIPAL */
+
+.hero-section {
+    min-height: 75vh;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: normal;
+
+
+    /* Imagen de fondo */
+    background-image:
+        linear-gradient(rgba(60, 50, 40, 0.45),
+                        rgba(60, 50, 40, 0.45)),
+        url("Imagen/Espacio de trabajo cálido y sereno.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Título principal */
+.hero-section h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+/* Texto debajo del título */
+.hero-section p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+/* SECCIÓN ACERCA DE MÍ */
+
+.about-section {
+    background-color: #f8f4ed;
+}
+
+.section-title {
+    color: #5c5146;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.about-section p {
+    line-height: 1.8;
+}
+
+
+.about-section img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid #8b7355;
+    box-shadow: 0 10px 30px #5c5146;
+}
+
+
+/* BOTONES PERSONALIZADOS */
+
+.custom-button {
+    display: inline-block;
+    background-color: #8b7355;
+    color: white;
+    border: none;
+    padding: 11px 28px;
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #5c5146;
+    color: white;
+    transform: translateY(-2px);
+}
+
+
+/* PIE DE PÁGINA */
+
+.footer {
+    background-color: #e8dfd2;
+    color: #5c5146;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+/* RESPONSIVIDAD */
+
+/* Estos estilos se aplican a pantallas pequeñas */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        min-height: 65vh;
+    }
+
+    .hero-section h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .about-section {
+        text-align: center;
+    }
+
+}
+
+/* Tarjetas de habilidades */
+
+.skill-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    height: 100%;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.skill-card p {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+/* Efecto al pasar el mouse */
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    background-color: #8b7355;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.skill-card:hover h3,
+.skill-card:hover p {
+    color: white;
+}
+
+.project-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    height: 100%;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.project-card p {
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    background-color: #e3d8cc !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-header {
+    background-color: #f8f5f1;
+}
+
+.projects-section {
+    background-color: #f8f5f1;
+}
+
+.projects-section .card {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.projects-section .card:hover {
+    transform: translateY(-8px);
+    background-color: #e3d8cc;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.navbar .nav-link:hover {
+    color: #8b7355;
+    transform: translateY(-2px);
+    padding: 10px;
+    height: 100%;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects-section .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.projects-section .card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.projects-section .card-text {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.navbar .nav-link {
+    transition: 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #8b7355;
+    transform: translateY(-2px);
+}
+
+.projects-section .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects-section .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}

@@ -1,20 +1,43 @@
 MI PORTAFOLIO WEB
 
-Este proyecto consiste en el desarrollo de un portafolio web
+Descripción:
+Este proyecto consiste en el desarrollo de un portafolio web personal
 responsivo utilizando HTML5, CSS3 y Bootstrap.
 
-El sitio presenta información sobre la diseñadora, sus habilidades,
-proyectos desarrollados y un formulario de contacto.
+El sitio presenta información personal, habilidades, proyectos académicos
+y un formulario de contacto.
+
+Páginas incluidas:
+- Inicio
+- Proyectos
+- Proyecto de Desarrollo Web
+- Proyecto en Python
+- Proyecto de Análisis de Datos
+- Contacto
 
 Tecnologías utilizadas:
 - HTML5
 - CSS3
-- Bootstrap
+- Bootstrap 5
 - JavaScript
 
-El proyecto fue desarrollado como parte de una actividad académica
-y está diseñado para adaptarse a diferentes tamaños de pantalla.
+Características:
+- Diseño responsivo para diferentes tamaños de pantalla.
+- Barra de navegación con Bootstrap.
+- Secciones informativas.
+- Tarjetas para presentar proyectos.
+- Formularios con validación.
+- Botones y efectos visuales personalizados mediante CSS.
 
-Repositorio en GitHub: https://github.com/Nashluc/Mi_portafolio.git
+Estructura HTML5:
+El proyecto utiliza una estructura semántica de HTML5.
+<header> se utiliza para el encabezado.
+<nav> contiene la navegación principal.
+<section> organiza las diferentes secciones del contenido.
+<footer> contiene la información final de las páginas.
 
-Autor: Nashlee Luciano
+Repositorio en GitHub:
+https://github.com/Nashluc/Mi_portafolio
+
+Autor:
+Nashlee Luciano
